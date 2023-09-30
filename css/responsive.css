@@ -1,0 +1,14 @@
+/* RESPONSIVE */
+
+@media screen and (max-width: 772px) {
+    .nav {
+        justify-content: center;
+        margin-bottom: 12px;
+    }
+    .container .nav h3 {
+        font-size: 30px;
+        line-height: 1.9;
+    }
+}
+
+

@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: black;
+}
+
+header {
+    border-bottom: 5px solid orange;
+}
+
+.container .nav h3::before {
+    content: '';
+    background: url(../img/camera.png);
+    width: 49px;
+    height: 45px;
+    position: absolute;
+    left: -55px;
+}
+
+.container .nav h3 {
+    color: white;
+    position: relative;
+    line-height: 1.6;
+    font-size: 36px;
+    font-family: math;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-left: 52px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 72px;
+    justify-content: space-between;
+    /* margin-left: 49px; */
+}
+
+.input__block {
+    position: relative;
+    width: 350px;
+}
+
+.input__block input {
+    width: 90.5%;
+    font-size: 18px;
+    padding: 8px 16px;
+    border-radius: 25px;
+    border: 1px solid orange;
+    transition: .3s ease-out;
+}
+
+.input__block input:focus {
+    box-shadow: 0 0 5px orange;
+    transition: .3s ease-out;
+}
+
+.input__block svg {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    transition: 1s;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.input__block svg:hover {
+    fill: orange;
+    cursor: pointer;
+}
+
+.img {
+    width: 350px;
+    height: 200px;
+    background-position: 50% 50%;
+    margin-top: 15px;
+    background-size: cover;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.grid {
+    align-items: flex-start;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px auto;
+}
+
+
+footer {
+    width: 100%;
+    min-height: 80px;
+    background: orange;
+}
+
+.course {
+    width: 100px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80px;
+}
+
+footer a {
+    color: black;
+    font-size: 23px;
+    text-decoration: none;
+    font-weight: 700;
+}
