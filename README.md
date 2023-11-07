@@ -7,5 +7,5 @@ Technologies used:
 * HTML, CSS
 * JavaScript
 
-Api used:
+API used:
 * [Unsplash image API](https://unsplash.com/developers)
