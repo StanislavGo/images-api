@@ -8,4 +8,4 @@ Technologies used:
 * JavaScript
 
 Api used:
-* [Unsplash image API]https://unsplash.com/developers
+* [Unsplash image API](https://unsplash.com/developers)
